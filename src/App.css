@@ -1,0 +1,67 @@
+html {
+  font-size: 16px;
+}
+body {
+  background-color: #eee !important;
+}
+nav {
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.home-about-us {
+  background-color: #fff;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.home-about-us img {
+  width: 100%;
+  height: 15rem;
+  border-radius: 0px 15px 15px 0px;
+}
+.home-about-us:hover {
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.2);
+}
+
+.home-services .img img {
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+  margin-bottom: 10px;
+  border-radius: 15px 15px 0px 0px;
+}
+.home-services .box {
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+.home-services .box:hover {
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.2);
+}
+.text-orange {
+  color: #ff7200;
+}
+
+/* Bootstrap */
+.active-link {
+  /* color: red !important; */
+}
+
+/* react-bootstrap */
+
+nav .nav-link {
+  line-height: 4.4rem !important;
+  font-size: 1.1rem !important;
+}
+.carousel-inner .carousel-item img {
+  height: 500px;
+}
+
+.carousel-control-next .carousel-control-next-icon,
+.carousel-control-prev .carousel-control-prev-icon {
+  padding: 20px 10px;
+  background-color: #f74b00;
+}
